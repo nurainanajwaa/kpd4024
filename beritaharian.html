@@ -1,0 +1,273 @@
+<html>
+    <head>
+        <title> Berita Harian </title>
+        <style>
+            * {
+                margin: 0;
+                box-sizing: content-box;
+            }
+            /*HEADER*/
+            .header {
+                overflow: hidden;
+                display: block;
+            }
+
+            .header > .logo > img {
+                float: left;
+                padding: 50px;
+            }
+
+            .header > .tajuk {
+                font-size: 14mm;
+                font-weight: bold;
+                padding-top: 30px;
+            }
+
+            .header > .icon > img {
+                width: 2%;
+                float: right;
+                padding-right: 30px;
+            }
+            /*MENU*/
+            .menu {
+                overflow: hidden;
+                display: block;
+                background-color: black;
+            }
+
+            .menu > .list > ul > li {
+                list-style-type: none;
+                float: left;
+                padding: 30px;
+                font-size: 6mm;
+                color: white;
+            }
+
+            .menu > .button {
+                float: right;
+                padding-top: 30px;
+                padding-right: 40px;
+            }
+
+            .menu > .button > button {
+                padding: 10px;
+            }
+            /*CONTENT*/
+            .content {
+                overflow: hidden;
+                display: block;
+                padding-top: 4px;
+                padding-bottom: 30px;
+            }
+            .content1 {
+                overflow: hidden;
+                display: block;
+                width: 20%;
+                float: left;
+                background-color: white;
+            }
+
+            .content1 > .sukan > .bolasepak {
+                border-bottom: solid;
+            }
+
+            .content1 > .sukan > .bolasepak > img {
+                width: 30%;
+            }
+
+            .content1 > .sukan > .bolasepak > a {
+                text-decoration: none;
+                font-size: 6mm;
+            }
+
+            .content1 > .sukan > .rugbi {
+                border-bottom: solid;
+            }
+
+            .content1 > .sukan > .rugbi > img {
+                width: 30%;
+            }
+
+            .content1 > .sukan > .rugbi > a {
+                text-decoration: none;
+                font-size: 6mm;
+            }
+            
+            .content1 > .sukan > .bolajaring {
+                border-bottom: solid;
+                
+            }
+            .content1 > .sukan > .bolajaring > img{
+                width: 30%;
+            }
+
+            .content1 > .sukan > .bolajaring > a {
+                text-decoration: none;
+                font-size: 6mm;
+            }
+
+            .content1 > .sukan > .berenang {
+                border-bottom: solid;
+            }
+
+            .content1 > .sukan > .berenang > img{
+                width: 30%;
+            }
+
+            .content1 > .sukan > .berenang > a {
+                text-decoration: none;
+                font-size: 6mm;
+            }
+
+            .content > .content2 {
+                overflow: hidden;
+                float: right;
+                width: 80%;
+                background-color: grey;
+            }
+
+            .content > .content2 > .table {
+                float: right;
+                padding-left: 200px;
+                padding-bottom: 221px;
+                width: 100%;
+            }
+
+            .content > .content2 > .table > marquee > table {
+                margin-top: 150px;
+                text-align: center;
+                background-color: white;
+            }
+            
+            /*FOOTER*/
+            .footer {
+                padding:10px;
+                width: 100%;
+                border: solid;
+                text-align: center;
+                color: grey;
+                background-color: black;
+            }
+
+            .footer > .copyright {
+                color: white;
+                font-size: 6mm;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <!--HEADER-->
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo (1).png">
+            </div>
+            <div class="tajuk">
+                BERITA HARIAN
+            </div>
+            <div class="icon">
+                <img src="images/facebook.png">
+                <img src="images/twitter (1).png">
+                <img src="images/instagram (1).png">
+                <img src="images/youtube.png">
+            </div>
+        </div>
+
+        <!--MENU-->
+        <div class="menu">
+            <div class="list">
+                <ul>
+                    <li> BERITA </li>
+                    <li> SUKAN </li>
+                    <li> DUNIA </li>
+                    <li> HIBURAN </li>
+                </ul>
+            </div>
+            <div class="button">
+                <button> Masuk Kata Kunci </button>
+                <button> Cari </button>
+            </div>
+        </div>
+
+        <!--CONTENT-->
+        <div class="content">
+        <div class="content1">
+            <div class="sukan">
+                <div class="bolasepak">
+                <img src="images/football.png">
+                <a href="#"> Bola Sepak </a>
+                </div>
+                <div class="rugbi">
+                <img src="images/rugby.png">
+                <a href="#"> Rugbi </a>
+                </div>
+                <div class="bolajaring">
+                <img src="images/netball.png">
+                <a href="#"> Bola Jaring </a>
+                </div>
+                <div class="berenang">
+                <img src="images/swimming.png">
+                <a href="#"> Berenang </a>
+                </div>
+            </div> 
+        </div>    
+
+        <div class="content2">
+            <div class="table">
+                <marquee>
+                <table border="2">
+                    <tr>
+                        <th>Bil</th>
+                        <th>Negara</th>
+                        <th style="background-color: yellow;">Emas</th>
+                        <th style="background-color: lightgray;">Perak</th>
+                        <th style="background-color: brown;">Gangsa</th>
+                        <th style="background-color: lightgreen;">Jumlah</th>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td> China </td>
+                        <td style="background-color: yellow;"> 27 </td>
+                        <td style="background-color: lightgray;"> 45 </td>
+                        <td style="background-color: brown;"> 16 </td>
+                        <th style="background-color: lightgreen;"> 88 </th>
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td> Japan </td>
+                        <td style="background-color: yellow;"> 22 </td>
+                        <td style="background-color: lightgray;"> 12 </td>
+                        <td style="background-color: brown;"> 19 </td>
+                        <th style="background-color: lightgreen;"> 53 </th>
+                    </tr>
+                    <tr>
+                        <td> 3 </td>
+                        <td> Amerika </td>
+                        <td style="background-color: yellow;"> 20 </td>
+                        <td style="background-color: lightgray;"> 56 </td>
+                        <td style="background-color: brown;"> 2 </td>
+                        <th style="background-color: lightgreen;"> 78 </th>
+                    </tr>
+                    <tr>
+                        <td> 4 </td>
+                        <td> ROC </td>
+                        <td style="background-color: yellow;"> 15 </td>
+                        <td style="background-color: lightgray;"> 24 </td>
+                        <td style="background-color: brown;"> 32 </td>
+                        <th style="background-color: lightgreen;"> 61 </th>
+                    </tr>
+                </table>
+                </marquee>
+            </div>
+        </div>    
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="copyright">
+            Copyright &copy; Berita Harian, 2021
+            </div>
+        </div>
+  </body>
+</html>
